@@ -155,4 +155,4 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
 
 ### Links
 
-[GitHub](https://github.com/niaka3dayo) · [Zenn](https://zenn.dev/nayushi) · [X](https://x.com/niaka3vrc) · [BOOTH](https://niaka.booth.pm/) · [VPM](https://vpm.2aka.io/) · [YouTrust](https://youtrust.jp/users/niaka3dayo)
+[GitHub](https://github.com/niaka3dayo) · [Zenn](https://zenn.dev/nayushi) · [X](https://x.com/niaka3vrc) · [BOOTH](https://niaka.booth.pm/) · [VPM](https://vpm.2aka.io/)
