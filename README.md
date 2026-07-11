@@ -91,49 +91,59 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://vrc-aquelia.com/"><img src="./assets/projects/aquelia.webp" alt="深海プロジェクト Aquelia" width="100%"></a><br>
       <strong><a href="https://vrc-aquelia.com/">深海プロジェクト Aquelia</a></strong>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <img src="./assets/projects/mokaboard.webp" alt="MokaBoard" width="100%"><br>
       <strong>MokaBoard</strong>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://x.com/manu_lab_vrc"><img src="./assets/projects/manulabo.webp" alt="マヌラボ" width="100%"></a><br>
-      <strong><a href="https://x.com/manu_lab_vrc">マヌラボ</a></strong>
     </td>
   </tr>
 </table>
 
 - **深海プロジェクト Aquelia** — 公式サイトとキャラクター管理システム「観測室」を担当。Next.js / React / Cloudflare D1・R2。
 - **MokaBoard** — 「スナック狐日和」専用。Webシステムとワールド内表示をつなぐ連動型ギミック。
-- **マヌラボ** — イベントワールドと、Webから動かせる連動ギミックを担当。
 
 *Web systems that extend what can happen inside a VRChat world.*
 
 ## VRChat Worlds
 
+### 公開ワールド / Public Worlds
+
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <a href="https://vrchat.com/home/launch?worldId=wrld_6ce8d952-7df7-47ad-81ce-ae82bdfa0396"><img src="./assets/worlds/tomoshibi.webp" alt="灯の館" width="100%"></a><br>
-      <strong><a href="https://vrchat.com/home/launch?worldId=wrld_6ce8d952-7df7-47ad-81ce-ae82bdfa0396">灯の館</a></strong>
-    </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1"><img src="./assets/worlds/amayadokari.webp" alt="あまやどかり" width="100%"></a><br>
       <strong><a href="https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1">あまやどかり</a></strong>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://vrchat.com/home/launch?worldId=wrld_12c89f0b-81c4-4d8f-9184-eb07143e961a"><img src="./assets/worlds/cyanaria.webp" alt="Cyanaria" width="100%"></a><br>
       <strong><a href="https://vrchat.com/home/launch?worldId=wrld_12c89f0b-81c4-4d8f-9184-eb07143e961a">Cyanaria</a></strong>
     </td>
   </tr>
 </table>
 
-- **灯の館** — イベント向けに制作した、灯りと物語のある館。
 - **あまやどかり** — 雨宿りのための公開ワールド。公開2日で20,000 visits / 3,300 favorites。
 - **Cyanaria** — 青い光と水の気配を楽しむ公開ワールド。
+
+### イベント用非公開ワールド / Private Event Worlds
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3"><img src="./assets/worlds/manulabo.webp" alt="マヌラボ" width="100%"></a><br>
+      <strong><a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3">マヌラボ</a></strong>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd"><img src="./assets/worlds/tomoshibi.webp" alt="灯の館" width="100%"></a><br>
+      <strong><a href="https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd">灯の館</a></strong>
+    </td>
+  </tr>
+</table>
+
+- **マヌラボ** — イベント用非公開ワールドを制作。Webから動かせる連動ギミックも担当。
+- **灯の館** — イベント用非公開ワールドを制作。イベントの雰囲気に合わせて空間を設計。
 
 ## About
 
