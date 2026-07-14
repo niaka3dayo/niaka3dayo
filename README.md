@@ -35,6 +35,16 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 *Rules, examples, and validation hooks for agents that write UdonSharp.*<br>
 *I make agents dance.*
 
+## Community Contributions / 技術協力
+
+### [HoboRadio / ほぼらじお](https://booth.pm/ja/items/8041466)
+
+始終会が開発・運営するVRChat向けラジオギミックです。開発アドバイザーとして、コードレビューと技術的な設計・実装アドバイスを担当しています。公式頒布ページでは「外部協力・技術サポート」としてクレジットされています。
+
+[GitHub](https://github.com/Shijukai/HoboRadio) · [BOOTH](https://booth.pm/ja/items/8041466)
+
+*Development advisor and external technical support for a VRChat radio gimmick, contributing code reviews and implementation guidance.*
+
 ## Personal Web Projects / 趣味の個人開発
 
 仕事とは別に、趣味で企画・デザイン・実装・運用しているWebアプリです。勤務先や受託案件の制作物ではありません。

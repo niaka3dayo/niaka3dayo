@@ -13,6 +13,7 @@ README = ROOT / "README.md"
 
 REQUIRED_HEADINGS = (
     "Open Source",
+    "Community Contributions / 技術協力",
     "Personal Web Projects / 趣味の個人開発",
     "NiAkaDo / NiAka堂",
     "Web Development",
@@ -23,6 +24,8 @@ REQUIRED_HEADINGS = (
 
 REQUIRED_LINKS = (
     "https://github.com/niaka3dayo/agent-skills-vrc-udon",
+    "https://github.com/Shijukai/HoboRadio",
+    "https://booth.pm/ja/items/8041466",
     "https://metacopi.2aka.io/",
     "https://brown.2aka.io/",
     "https://niaka.booth.pm/",
