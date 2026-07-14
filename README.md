@@ -4,9 +4,11 @@
   <img src="./assets/hero-light.svg" alt="NiAka — Full-stack Web Engineer and VRChat Creator" width="100%">
 </picture>
 
-## Web開発が本業です。
+## はじめまして、NiAkaです。
 
-VRChatではワールドやギミックを作っています。最近は、AIエージェントにUdonSharpをちゃんと書かせるためのOSSも育てています。
+TypeScriptを中心に、Webアプリケーションの設計・開発・運用をしています。
+
+個人ではVRChatのワールドやギミック、Unity向けツールを作っています。最近は、AIエージェントにUdonSharpをちゃんと書かせるためのOSSも育てています。
 
 *Full-stack web engineer. I also build VRChat worlds and tools, and maintain open-source skills that help coding agents write better UdonSharp.*
 
