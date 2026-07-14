@@ -135,7 +135,7 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
   </tr>
 </table>
 
-- **深海プロジェクト Aquelia** — 公式サイトとキャラクター管理システム「観測室」を担当。Next.js / React / Cloudflare D1・R2。
+- **深海プロジェクト Aquelia** — 公式サイトとキャラクター管理システム「観測室」に加え、ワールド内Udonギミック一式の開発・継続メンテナンスを担当。Next.js / React / Cloudflare D1・R2 / UdonSharp。
 - **MokaBoard** — 「スナック狐日和」専用。Webシステムとワールド内表示をつなぐ連動型ギミック。
 
 *Web systems that extend what can happen inside a VRChat world.*
