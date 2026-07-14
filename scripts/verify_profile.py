@@ -13,6 +13,7 @@ README = ROOT / "README.md"
 
 REQUIRED_HEADINGS = (
     "Open Source",
+    "Personal Web Projects / 趣味の個人開発",
     "NiAkaDo / NiAka堂",
     "Web Development",
     "Web × VRChat",
@@ -22,6 +23,8 @@ REQUIRED_HEADINGS = (
 
 REQUIRED_LINKS = (
     "https://github.com/niaka3dayo/agent-skills-vrc-udon",
+    "https://metacopi.2aka.io/",
+    "https://brown.2aka.io/",
     "https://niaka.booth.pm/",
     "https://vpm.2aka.io/",
     "https://vrc-aquelia.com/",

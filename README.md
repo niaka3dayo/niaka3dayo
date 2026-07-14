@@ -35,6 +35,28 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 *Rules, examples, and validation hooks for agents that write UdonSharp.*<br>
 *I make agents dance.*
 
+## Personal Web Projects / 趣味の個人開発
+
+仕事とは別に、趣味で企画・デザイン・実装・運用しているWebアプリです。勤務先や受託案件の制作物ではありません。
+
+*Small web apps I design, build, and maintain independently outside work.*
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://metacopi.2aka.io/"><img src="https://metacopi.2aka.io/ogp.png" alt="めたこぴ for VRC" width="100%"></a><br>
+      <strong><a href="https://metacopi.2aka.io/">めたこぴ for VRC</a></strong>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brown.2aka.io/"><img src="https://brown.2aka.io/opengraph-image.png" alt="Brown Wave" width="100%"></a><br>
+      <strong><a href="https://brown.2aka.io/">Brown Wave</a></strong>
+    </td>
+  </tr>
+</table>
+
+- **めたこぴ for VRC** — VRChat写真のXMPメタデータを、ブラウザだけで閲覧・編集・コピーするツール。PNG / JPEG対応。画像はサーバーへ送信しません。`Astro` `React` `TypeScript`
+- **Brown Wave** — 集中・休息・入眠向けのアンビエントサウンドミキサー。11種類のサウンド、プリセット、共有URL、スリープタイマー、PWAに対応。`Astro` `React` `Web Audio API`
+
 ## NiAkaDo / NiAka堂
 
 ワールド制作で面倒だったところを、小さな道具にしています。シェーダー、Prefab、Unityエディタ拡張などを[BOOTH](https://niaka.booth.pm/)で配布しています。無料で使えるものもあります。
