@@ -189,3 +189,10 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
 ### Links
 
 [GitHub](https://github.com/niaka3dayo) · [Zenn](https://zenn.dev/nayushi) · [note](https://note.com/2aka) · [X](https://x.com/niaka3vrc) · [BOOTH](https://niaka.booth.pm/) · [VPM](https://vpm.2aka.io/)
+
+---
+
+<sub>
+このREADMEでは、個人名義で公開できる活動と成果物の一部だけを紹介しています。勤務先で担当した案件、受託で開発したアプリケーション・Webサイト、詳細な職務経歴は、守秘義務や契約、関係者のプライバシーを尊重するため掲載していません。公開できる範囲の経験については、必要に応じて個別に説明します。<br>
+<i>This profile intentionally focuses on work that can be shared publicly. Professional and client projects are omitted where confidentiality, contractual obligations, or privacy apply.</i>
+</sub>

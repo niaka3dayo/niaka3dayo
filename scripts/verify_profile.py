@@ -33,6 +33,11 @@ REQUIRED_LINKS = (
     "https://vrc-aquelia.com/",
 )
 
+REQUIRED_TEXT = (
+    "個人名義で公開できる活動と成果物の一部",
+    "守秘義務や契約、関係者のプライバシー",
+)
+
 FORBIDDEN_TEXT = (
     "NiAka / なゆ",
     "コードと世界の境界を設計する",
@@ -76,6 +81,10 @@ def main() -> int:
     for link in REQUIRED_LINKS:
         if link not in text:
             errors.append(f"必須リンクがありません: {link}")
+
+    for required in REQUIRED_TEXT:
+        if required not in text:
+            errors.append(f"必須の掲載範囲注記がありません: {required}")
 
     for forbidden in FORBIDDEN_TEXT:
         if forbidden.casefold() in text.casefold():
