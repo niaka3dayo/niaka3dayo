@@ -60,7 +60,7 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
       <strong><a href="https://metacopi.2aka.io/">めたこぴ for VRC</a></strong>
     </td>
     <td width="50%" valign="top">
-      <a href="https://brown.2aka.io/"><img src="https://brown.2aka.io/opengraph-image.png" alt="Brown Wave" width="100%"></a><br>
+      <a href="https://brown.2aka.io/"><img src="https://brown.2aka.io/opengraph-image-v2.png" alt="Brown Wave" width="100%"></a><br>
       <strong><a href="https://brown.2aka.io/">Brown Wave</a></strong>
     </td>
   </tr>
