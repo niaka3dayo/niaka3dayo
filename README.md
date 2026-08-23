@@ -77,21 +77,28 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
+      <a href="https://niaka.booth.pm/items/8752801"><img src="./assets/products/eztalkdeck.webp" alt="Ezトークデッキ / EzTalkDeck" width="100%"></a><br>
+      <strong><a href="https://niaka.booth.pm/items/8752801">Ezトークデッキ / EzTalkDeck</a></strong>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://booth.pm/ja/items/8568688"><img src="./assets/products/ezmirror.webp" alt="EzMirror" width="100%"></a><br>
       <strong><a href="https://booth.pm/ja/items/8568688">EzMirror</a></strong>
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://booth.pm/ja/items/8320267"><img src="./assets/products/oborozuki.webp" alt="朧月 - Oborozuki Shader" width="100%"></a><br>
       <strong><a href="https://booth.pm/ja/items/8320267">朧月 - Oborozuki Shader</a></strong>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://booth.pm/ja/items/7719130"><img src="./assets/products/font-tool.webp" alt="フォントを一括置き換えするやつ" width="100%"></a><br>
       <strong><a href="https://booth.pm/ja/items/7719130">フォントを一括置き換えするやつ</a></strong>
     </td>
   </tr>
 </table>
 
+- **Ezトークデッキ / EzTalkDeck** — VRChatワールドで会話テーマを引けるUdonギミック。1言語あたり7パック各60件、計420テーマを収録。テーマとInspectorは日本語、英語、韓国語、簡体字中国語に対応しています。パック選択と山札を参加者間で同期し、購入者専用VPMリポジトリとunitypackage版で導入できます。
 - **EzMirror** — 置くだけで使える、軽量なVRChat向けミラーPrefab。無料。
 - **朧月** — 月の満ち欠けと雲の表情を作るシェーダー。無料。
 - **フォントを一括置き換えするやつ** — Unityプロジェクト内のフォントをまとめて差し替えるエディタ拡張。
