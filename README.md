@@ -174,12 +174,12 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3"><img src="./assets/worlds/manulabo.webp" alt="マヌラボ" width="100%"></a><br>
-      <strong><a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3">マヌラボ</a></strong>
+      <a href="https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd"><img src="./assets/worlds/manulabo.webp" alt="マヌラボ" width="100%"></a><br>
+      <strong><a href="https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd">マヌラボ</a></strong>
     </td>
     <td width="50%" valign="top">
-      <a href="https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd"><img src="./assets/worlds/tomoshibi.webp" alt="灯の館" width="100%"></a><br>
-      <strong><a href="https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd">灯の館</a></strong>
+      <a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3"><img src="./assets/worlds/tomoshibi.webp" alt="灯の館" width="100%"></a><br>
+      <strong><a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3">灯の館</a></strong>
     </td>
   </tr>
 </table>
