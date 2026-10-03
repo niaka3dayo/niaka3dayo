@@ -155,6 +155,15 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
 
 <table>
   <tr>
+    <td width="100%" valign="top">
+      <a href="https://vrchat.com/home/launch?worldId=wrld_83f0434e-b702-4e73-bfd2-913816ef5ed5"><img src="./assets/worlds/sugaria.webp" alt="しゅがりあ -Sugar Reactor-" width="100%"></a><br>
+      <strong>NEW</strong> · <strong><a href="https://vrchat.com/home/launch?worldId=wrld_83f0434e-b702-4e73-bfd2-913816ef5ed5">しゅがりあ -Sugar Reactor-</a></strong> · 2026.10.03 公開
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1"><img src="./assets/worlds/amayadokari.webp" alt="あまやどかり" width="100%"></a><br>
       <strong><a href="https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1">あまやどかり</a></strong>
@@ -166,6 +175,7 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
   </tr>
 </table>
 
+- **しゅがりあ -Sugar Reactor-** — ふたりでキャップを押すと甘い反応が起こる、いちごミルク色のラウンジ。PC / Android / iOSに対応した最新の公開ワールド。
 - **あまやどかり** — 雨宿りのための公開ワールド。公開2日で20,000 visits / 3,300 favorites。
 - **Cyanaria** — 青い光と水の気配を楽しむ公開ワールド。
 
