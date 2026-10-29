@@ -156,26 +156,31 @@ Webだけ、Unityだけで閉じない案件もやっています。Web側の状
 <table>
   <tr>
     <td width="100%" valign="top">
-      <a href="https://vrchat.com/home/launch?worldId=wrld_83f0434e-b702-4e73-bfd2-913816ef5ed5"><img src="./assets/worlds/sugaria.webp" alt="しゅがりあ -Sugar Reactor-" width="100%"></a><br>
-      <strong>NEW</strong> · <strong><a href="https://vrchat.com/home/launch?worldId=wrld_83f0434e-b702-4e73-bfd2-913816ef5ed5">しゅがりあ -Sugar Reactor-</a></strong> · 2026.10.03 公開
+      <a href="https://vrchat.com/home/launch?worldId=wrld_5c8bdc4f-4ada-4f66-9289-5497ec01c874"><img src="./assets/worlds/manuka-pumpkin-field.webp" alt="マヌカボチャ畑 / Manuka Pumpkin Field" width="100%"></a><br>
+      <strong>NEW</strong> · <strong><a href="https://vrchat.com/home/launch?worldId=wrld_5c8bdc4f-4ada-4f66-9289-5497ec01c874">マヌカボチャ畑 / Manuka Pumpkin Field</a></strong> · 2026.10.29 公開
     </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <a href="https://vrchat.com/home/launch?worldId=wrld_83f0434e-b702-4e73-bfd2-913816ef5ed5"><img src="./assets/worlds/sugaria.webp" alt="しゅがりあ -Sugar Reactor-" width="100%"></a><br>
+      <strong><a href="https://vrchat.com/home/launch?worldId=wrld_83f0434e-b702-4e73-bfd2-913816ef5ed5">しゅがりあ -Sugar Reactor-</a></strong>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1"><img src="./assets/worlds/amayadokari.webp" alt="あまやどかり" width="100%"></a><br>
       <strong><a href="https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1">あまやどかり</a></strong>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <a href="https://vrchat.com/home/launch?worldId=wrld_12c89f0b-81c4-4d8f-9184-eb07143e961a"><img src="./assets/worlds/cyanaria.webp" alt="Cyanaria" width="100%"></a><br>
       <strong><a href="https://vrchat.com/home/launch?worldId=wrld_12c89f0b-81c4-4d8f-9184-eb07143e961a">Cyanaria</a></strong>
     </td>
   </tr>
 </table>
 
-- **しゅがりあ -Sugar Reactor-** — ふたりでキャップを押すと甘い反応が起こる、いちごミルク色のラウンジ。PC / Android / iOSに対応した最新の公開ワールド。
+- **マヌカボチャ畑 / Manuka Pumpkin Field** — 月夜の畑でマヌカボチャを収穫する、最大4人の協力ミニゲーム。見ている人もお菓子を投げて応援でき、日本語・英語・韓国語・中国語に対応した最新の公開ワールド。マヌカ集会イベント #マヌラボ の主催で制作。
+- **しゅがりあ -Sugar Reactor-** — ふたりでキャップを押すと甘い反応が起こる、いちごミルク色のラウンジ。PC / Android / iOSに対応した公開ワールド。
 - **あまやどかり** — 雨宿りのための公開ワールド。公開2日で20,000 visits / 3,300 favorites。
 - **Cyanaria** — 青い光と水の気配を楽しむ公開ワールド。
 
