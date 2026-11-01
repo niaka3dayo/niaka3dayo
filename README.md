@@ -93,9 +93,9 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
       <sub>イベント用（非公開）· Webから動かせる連動ギミックも担当</sub>
     </td>
     <td width="33%" valign="top">
-      <a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3"><img src="./assets/worlds/tomoshibi.webp" alt="灯の館" width="100%"></a><br>
-      <strong><a href="https://vrchat.com/home/group/grp_497626aa-0f05-4959-ba2f-4c04626641e3">灯の館</a></strong><br>
-      <sub>イベント用（非公開）· イベントの雰囲気に合わせて空間を設計</sub>
+      <sub>過去に担当したワールド</sub><br>
+      <strong>灯の館</strong><br>
+      <sub>イベント用（非公開）· イベントの雰囲気に合わせて空間を設計しました。現在は担当していません</sub>
     </td>
   </tr>
 </table>

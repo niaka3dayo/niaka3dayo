@@ -36,7 +36,7 @@ THEMES = {
 # ヘッダーの右に、少し傾けて並べるサムネイル（3行 × 3列）。左の列は文字の側へ溶かすので、
 # 目立つのは真ん中と右の列
 TILES = [
-    ["worlds/cyanaria.webp", "products/oborozuki.webp", "worlds/tomoshibi.webp"],
+    ["worlds/cyanaria.webp", "products/oborozuki.webp", "products/ezmirror.webp"],
     ["worlds/amayadokari.webp", "worlds/manuka-pumpkin-field.webp", "worlds/sugaria.webp"],
     ["products/eztalkdeck.webp", "products/sugar-reactor.webp", "worlds/manulabo.webp"],
 ]
