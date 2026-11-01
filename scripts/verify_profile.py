@@ -12,13 +12,12 @@ ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 
 REQUIRED_HEADINGS = (
+    "Latest / 最近の仕事",
     "Open Source",
-    "Community Contributions / 技術協力",
-    "Personal Web Projects / 趣味の個人開発",
+    "VRChat Worlds",
     "NiAkaDo / NiAka堂",
     "Web Development",
-    "Web × VRChat",
-    "VRChat Worlds",
+    "Collaborations / 制作協力・技術協力",
     "About",
 )
 
@@ -26,6 +25,7 @@ REQUIRED_LINKS = (
     "https://github.com/niaka3dayo/agent-skills-vrc-udon",
     "https://github.com/Shijukai/HoboRadio",
     "https://booth.pm/ja/items/8041466",
+    "https://x.com/Riisya_Sweets/status/2116795253256757515",
     "https://metacopi.2aka.io/",
     "https://brown.2aka.io/",
     "https://niaka.booth.pm/",
@@ -36,6 +36,7 @@ REQUIRED_LINKS = (
 REQUIRED_TEXT = (
     "個人名義で公開できる活動と成果物の一部",
     "守秘義務や契約、関係者のプライバシー",
+    "勤務先や受託案件の制作物ではありません",
 )
 
 FORBIDDEN_TEXT = (
