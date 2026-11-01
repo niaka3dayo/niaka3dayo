@@ -165,9 +165,9 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
       <sub>趣味の個人開発</sub>
     </td>
     <td width="25%" valign="top">
-      <a href="https://brown.2aka.io/"><img src="https://brown.2aka.io/opengraph-image-v2.png" alt="Brown Wave" width="100%"></a><br>
-      <strong><a href="https://brown.2aka.io/">Brown Wave</a></strong><br>
-      <sub>趣味の個人開発</sub>
+      <sub>過去の個人開発</sub><br>
+      <strong>Brown Wave</strong><br>
+      <sub>サウンドミキサー · 公開終了</sub>
     </td>
   </tr>
 </table>
@@ -175,9 +175,8 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 - **[深海プロジェクト Aquelia](https://vrc-aquelia.com/)** — 公式サイトと登場人物管理システム「観測室」に加え、ワールド内のUdonギミック一式の開発と継続保守を担当しています。`Next.js` `React` `Cloudflare D1・R2` `UdonSharp`
 - **MokaBoard** — 「スナック狐日和」専用のギミックです。Webシステムとワールド内の表示をつないでいます。
 - **[めたこぴ for VRC](https://metacopi.2aka.io/)** — VRChat写真のXMPメタデータを、ブラウザだけで閲覧・編集・コピーするツールです。画像はサーバーへ送りません。`Astro` `React` `TypeScript`
-- **[Brown Wave](https://brown.2aka.io/)** — 集中・休息・入眠向けのアンビエントサウンドミキサーです。`Astro` `React` `Web Audio API`
 
-めたこぴ for VRCとBrown Waveは、仕事とは別に、趣味で企画から運用までしているWebアプリです。勤務先や受託案件の制作物ではありません。
+めたこぴ for VRCとBrown Waveは、仕事とは別に、趣味で作ったWebアプリです。勤務先や受託案件の制作物ではありません。
 
 <details>
 <summary><strong>よく使う技術 / Stack</strong></summary>
