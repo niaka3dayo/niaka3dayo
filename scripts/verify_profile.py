@@ -27,7 +27,6 @@ REQUIRED_LINKS = (
     "https://booth.pm/ja/items/8041466",
     "https://x.com/Riisya_Sweets/status/2116795253256757515",
     "https://metacopi.2aka.io/",
-    "https://brown.2aka.io/",
     "https://niaka.booth.pm/",
     "https://vpm.2aka.io/",
     "https://vrc-aquelia.com/",
