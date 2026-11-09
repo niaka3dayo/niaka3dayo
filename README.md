@@ -25,6 +25,12 @@ TypeScriptを中心に、Webアプリケーションの設計・開発・運用�
 <table>
   <tr>
     <td width="33%" valign="top">
+      <a href="https://niaka.booth.pm/items/9123231"><img src="./assets/latest/ezraffle.webp" alt="EzRaffle" width="100%"></a><br>
+      <sub>2026.11 · BOOTH · 無料</sub><br>
+      <strong><a href="https://niaka.booth.pm/items/9123231">EzRaffle</a></strong><br>
+      <sub>参加ボタンで集めて、朱印スタンプで当選を発表するワールド用の抽選ギミック。<a href="https://youtu.be/PW7CprpCrsA">紹介動画</a></sub>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://x.com/Riisya_Sweets/status/2116795253256757515"><img src="./assets/latest/komorebi-promo.svg" alt="初心者案内ワールド こもれび With Rinasciita プロモーション動画" width="100%"></a><br>
       <sub>2026.11 · 制作協力</sub><br>
       <strong><a href="https://x.com/Riisya_Sweets/status/2116795253256757515">こもれび プロモーション動画</a></strong><br>
@@ -35,12 +41,6 @@ TypeScriptを中心に、Webアプリケーションの設計・開発・運用�
       <sub>2026.10 · 公開ワールド</sub><br>
       <strong><a href="https://vrchat.com/home/launch?worldId=wrld_5c8bdc4f-4ada-4f66-9289-5497ec01c874">マヌカボチャ畑</a></strong><br>
       <sub>最大4人で遊ぶ協力ミニゲーム。日本語・英語・韓国語・中国語に対応。</sub>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://niaka.booth.pm/items/8936165"><img src="./assets/latest/sugar-reactor.webp" alt="Sugar Reactor" width="100%"></a><br>
-      <sub>2026.10 · BOOTH</sub><br>
-      <strong><a href="https://niaka.booth.pm/items/8936165">Sugar Reactor</a></strong><br>
-      <sub>ふたりでキャップを押すと、16種類の反応のうち1つが起こるワールド用ギミック。</sub>
     </td>
   </tr>
 </table>
@@ -117,12 +117,17 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
       <sub>会話カードのUdonギミック · 4言語</sub>
     </td>
     <td width="33%" valign="top">
+      <a href="https://niaka.booth.pm/items/9123231"><img src="./assets/products/ezraffle.webp" alt="EzRaffle" width="100%"></a><br>
+      <strong><a href="https://niaka.booth.pm/items/9123231">EzRaffle</a></strong><br>
+      <sub>抽選のUdonギミック · 4言語 · 無料</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
       <a href="https://booth.pm/ja/items/8568688"><img src="./assets/products/ezmirror.webp" alt="EzMirror" width="100%"></a><br>
       <strong><a href="https://booth.pm/ja/items/8568688">EzMirror</a></strong><br>
       <sub>ワールド用ミラー · 無料</sub>
     </td>
-  </tr>
-  <tr>
     <td width="33%" valign="top">
       <a href="https://booth.pm/ja/items/8320267"><img src="./assets/products/oborozuki.webp" alt="朧月 - Oborozuki Shader" width="100%"></a><br>
       <strong><a href="https://booth.pm/ja/items/8320267">朧月</a></strong><br>
@@ -133,6 +138,8 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
       <strong><a href="https://booth.pm/ja/items/7719130">フォントを一括置き換えするやつ</a></strong><br>
       <sub>Unityエディタ拡張</sub>
     </td>
+  </tr>
+  <tr>
     <td width="33%" valign="top">
       <a href="https://vpm.2aka.io/"><img src="./assets/products/vpm.svg" alt="NiAkaDev VPM Repository" width="100%"></a><br>
       <strong><a href="https://vpm.2aka.io/">NiAkaDev VPM Repository</a></strong><br>
