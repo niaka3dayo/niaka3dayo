@@ -25,6 +25,12 @@ TypeScriptを中心に、Webアプリケーションの設計・開発・運用�
 <table>
   <tr>
     <td width="33%" valign="top">
+      <a href="https://site.shijukairadio.com/"><img src="./assets/latest/hoboradio-site.webp" alt="ほぼらじお 公式サイト" width="100%"></a><br>
+      <sub>2026.11 · Webサイト</sub><br>
+      <strong><a href="https://site.shijukairadio.com/">ほぼらじお 公式サイト</a></strong><br>
+      <sub>VRChatの24時間ラジオ「ほぼらじお」の公式サイト。デザインと開発を担当しました。</sub>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://niaka.booth.pm/items/9123231"><img src="./assets/latest/ezraffle.webp" alt="EzRaffle" width="100%"></a><br>
       <sub>2026.11 · BOOTH · 無料</sub><br>
       <strong><a href="https://niaka.booth.pm/items/9123231">EzRaffle</a></strong><br>
@@ -35,12 +41,6 @@ TypeScriptを中心に、Webアプリケーションの設計・開発・運用�
       <sub>2026.11 · 制作協力</sub><br>
       <strong><a href="https://x.com/Riisya_Sweets/status/2116795253256757515">こもれび プロモーション動画</a></strong><br>
       <sub>リーシャさんのワールドの宣伝動画。構成・撮影・編集を担当しました。</sub>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://vrchat.com/home/launch?worldId=wrld_5c8bdc4f-4ada-4f66-9289-5497ec01c874"><img src="./assets/latest/manuka-pumpkin-field.webp" alt="マヌカボチャ畑 / Manuka Pumpkin Field" width="100%"></a><br>
-      <sub>2026.10 · 公開ワールド</sub><br>
-      <strong><a href="https://vrchat.com/home/launch?worldId=wrld_5c8bdc4f-4ada-4f66-9289-5497ec01c874">マヌカボチャ畑</a></strong><br>
-      <sub>最大4人で遊ぶ協力ミニゲーム。日本語・英語・韓国語・中国語に対応。</sub>
     </td>
   </tr>
 </table>
@@ -156,22 +156,27 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 
 <table>
   <tr>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
+      <a href="https://site.shijukairadio.com/"><img src="./assets/latest/hoboradio-site.webp" alt="ほぼらじお 公式サイト" width="100%"></a><br>
+      <strong><a href="https://site.shijukairadio.com/">ほぼらじお</a></strong><br>
+      <sub>公式サイト</sub>
+    </td>
+    <td width="20%" valign="top">
       <a href="https://vrc-aquelia.com/"><img src="./assets/projects/aquelia.webp" alt="深海プロジェクト Aquelia" width="100%"></a><br>
       <strong><a href="https://vrc-aquelia.com/">Aquelia</a></strong><br>
       <sub>Web × VRChat</sub>
     </td>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
       <img src="./assets/projects/mokaboard.webp" alt="MokaBoard" width="100%"><br>
       <strong>MokaBoard</strong><br>
       <sub>Web × VRChat</sub>
     </td>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
       <a href="https://metacopi.2aka.io/"><img src="https://metacopi.2aka.io/ogp.png" alt="めたこぴ for VRC" width="100%"></a><br>
       <strong><a href="https://metacopi.2aka.io/">めたこぴ</a></strong><br>
       <sub>趣味の個人開発</sub>
     </td>
-    <td width="25%" valign="top">
+    <td width="20%" valign="top">
       <sub>過去の個人開発</sub><br>
       <strong>Brown Wave</strong><br>
       <sub>サウンドミキサー · 公開終了</sub>
@@ -179,6 +184,7 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
   </tr>
 </table>
 
+- **[ほぼらじお 公式サイト](https://site.shijukairadio.com/)**（2026.11）— 始終会が運営する、VRChatの24時間コミュニティラジオ「ほぼらじお」の公式サイトです。デザインと開発を担当しました。`Astro` `React` `Cloudflare Workers`
 - **[深海プロジェクト Aquelia](https://vrc-aquelia.com/)** — 公式サイトと登場人物管理システム「観測室」に加え、ワールド内のUdonギミック一式の開発と継続保守を担当しています。`Next.js` `React` `Cloudflare D1・R2` `UdonSharp`
 - **MokaBoard** — 「スナック狐日和」専用のギミックです。Webシステムとワールド内の表示をつないでいます。
 - **[めたこぴ for VRC](https://metacopi.2aka.io/)** — VRChat写真のXMPメタデータを、ブラウザだけで閲覧・編集・コピーするツールです。画像はサーバーへ送りません。`Astro` `React` `TypeScript`
@@ -205,7 +211,7 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 ほかの人の作品に、動画やコードで関わった仕事です。作品の作者は、それぞれの制作者やチームです。
 
 - **[こもれび With Rinasciita プロモーション動画](https://x.com/Riisya_Sweets/status/2116795253256757515)**（2026.11）— リーシャさんのワールド「初心者案内ワールド こもれび With Rinasciita」の宣伝動画です。構成・撮影・編集を担当し、リーシャさんのXで公開されました。
-- **[HoboRadio / ほぼらじお](https://booth.pm/ja/items/8041466)** — 始終会が開発・運営するVRChat向けラジオギミックです。開発アドバイザーとして、コードレビューと設計・実装の助言を担当しています。公式頒布ページでは「外部協力・技術サポート」としてクレジットされています。[GitHub](https://github.com/Shijukai/HoboRadio)
+- **[HoboRadio / ほぼらじお（ラジオギミック）](https://booth.pm/ja/items/8041466)** — 始終会が開発・運営するVRChat向けラジオギミックです。こちらは開発アドバイザーとして、コードレビューと設計・実装の助言を担当しています。公式頒布ページでは「外部協力・技術サポート」としてクレジットされています。[GitHub](https://github.com/Shijukai/HoboRadio)
 
 *Promotion video production and technical advisory work for other creators' projects.*
 
