@@ -1,6 +1,6 @@
 """プロフィールの画像を作る。
 
-動く画像（ヘッダー、数字の帯、ほぼらじおの画面、最新のワールド、区切り、フッター）は SVG、
+動く画像（ヘッダー、数字の帯、OSS のカード、ほぼらじおの画面、最新のワールド、区切り、フッター）は SVG、
 角を丸めたサムネイルは WebP で書き出す。色は NiAka堂のパステル版ロゴ（2026-09 承認）から取った。
 
 SVG は README から <img> で読まれるので、スクリプトも外部のファイルも使えない。そのため、
@@ -13,6 +13,7 @@ SVG は README から <img> で読まれるので、スクリプトも外部の�
 字体は scripts/fonts/ に置く（git には入れない）。
 - Zen Maru Gothic の Medium・Bold・Black（OFL。https://github.com/google/fonts/tree/main/ofl/zenmarugothic ）
 - こもれびのカードだけ Noto Serif CJK JP を使う（--serif-dir、既定は C:/Windows/Fonts）
+- コマンドの文字は Cascadia Mono（OFL。--mono-font、既定は Windows に入っているもの）
 fontTools と Pillow が要る。
 """
 
@@ -219,12 +220,13 @@ def sky(t: dict, w: int, h: int) -> str:
             f'<stop offset="1" stop-color="{t["sky_low"]}"/></linearGradient>', f'<rect width="{w}" height="{h}" fill="url(#sky)"/>')
 
 
-def stars(t: dict, w: int, top: float, bottom: float, count: int, seed: int) -> str:
+def stars(t: dict, w: int, top: float, bottom: float, count: int, seed: int, left: float = 20) -> str:
+    """夜の星。文字の後ろに入ると汚れに見えるので、文字のない範囲（left から右、top から bottom）にだけ置く"""
     if not t["night"]:
         return ""
     rnd = random.Random(seed)
     return "".join(
-        f'<g transform="translate({num(rnd.uniform(20, w - 20))} {num(rnd.uniform(top, bottom))})">'
+        f'<g transform="translate({num(rnd.uniform(left, w - 20))} {num(rnd.uniform(top, bottom))})">'
         f'<circle class="tw" r="{rnd.choice((1.1, 1.4, 1.8, 2.3))}" fill="{MOON}" '
         f'style="animation-delay:{num(-rnd.uniform(0, 5))}s;animation-duration:{num(rnd.uniform(3, 6))}s"/></g>'
         for _ in range(count))
@@ -432,6 +434,62 @@ def stats(theme: str, f: dict[str, Font], m: Motifs) -> str:
 """
 
 
+# Open Source のカード ------------------------------------------------------------------------
+
+COMMAND = "npx skills add niaka3dayo/agent-skills-vrc-udon"
+
+
+def oss(theme: str, f: dict[str, Font], m: Motifs) -> str:
+    """agent-skills-vrc-udon のカード。導入のコマンドが、1文字ずつ打ち込まれる"""
+    t = THEMES[theme]
+    w, h = 960, 304
+    sky_def, sky_rect = sky(t, w, h)
+    tx, ty, tw, th = 48, 170, 864, 98                 # ターミナルの枠
+    term = "#3f2e2a" if not t["night"] else "#17111a"
+    size = 27
+    mono = f["mono"]
+    adv = mono.width("n", size)                        # 等幅なので、1文字ぶんの幅
+    cmd_x = tx + 34 + adv * 2
+    cmd_w = adv * len(COMMAND)
+    assert cmd_x + cmd_w + adv < tx + tw - 20, "コマンドがターミナルの枠に収まらない"
+    base = ty + 62
+    # 文字の上に枠と同じ色の板を置き、1文字ぶんずつ右へずらして見せていく。
+    # 動きが働かないときは、板が右へずれきった位置（全部見えている状態）になる
+    cover = (f'<rect class="type" transform="translate({num(cmd_w)} 0)" x="{num(cmd_x)}" y="{ty + 26}" '
+             f'width="{num(cmd_w + adv)}" height="52" fill="{term}"/>')
+    cursor = (f'<g class="type" transform="translate({num(cmd_w)} 0)"><rect class="blink" x="{num(cmd_x + 3)}" y="{base - 26}" '
+              f'width="{num(adv * 0.82)}" height="32" rx="3" fill="{MOON}"/></g>')
+    dots = "".join(f'<circle cx="{tx + 24 + i * 18}" cy="{ty + 20}" r="5" fill="{c}"/>' for i, c in enumerate((PINK, MOON, SAGE)))
+    name = "agent-skills-vrc-udon"
+    css = (
+        f"@keyframes type{{0%{{transform:translateX(0);animation-timing-function:steps({len(COMMAND)})}}"
+        f"36%,100%{{transform:translateX({num(cmd_w)}px)}}}}"
+        "@keyframes blink{50%{opacity:0}}"
+        ".type{animation:type 11s infinite}.blink{animation:blink 1.1s step-end infinite}"
+        + TWINKLE + SWAY + REDUCED
+    )
+    return f"""{svg_open(w, h, "agent-skills-vrc-udon — AIが書くUdonSharpを、もう少しまともにする。", "導入のコマンド npx skills add niaka3dayo/agent-skills-vrc-udon が、ターミナルに打ち込まれていく")}
+  <style>{css}</style>
+  <defs><clipPath id="frame"><rect width="{w}" height="{h}" rx="36"/></clipPath>
+  <clipPath id="term"><rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="22"/></clipPath>{sky_def}</defs>
+  <g clip-path="url(#frame)">
+  {sky_rect}
+  {stars(t, w, 14, 150, 9, 51, left=640)}
+  {cloud(690, 10, 230, t["cloud"])}
+  {m.put("clover", 846, 78, 54, SAGE, "sway")}{m.put("sparkle", 778, 118, 18, PINK, "tw", -1)}{m.put("sparkle2", 902, 132, 14, MOON, "tw", -2.4)}
+  {f["medium"].path("OPEN SOURCE", 50, 54, 15, t["sub"], tracking=4.5)}
+  {f["bold"].path(name, 48, 102, 42, t["ink"], tracking=0.5)}
+  {f["bold"].path("AIが書くUdonSharpを、もう少しまともにする。", 50, 142, 23, t["sub"])}
+  <rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="22" fill="{term}" stroke="{t["line"]}" stroke-width="{1.5 if t["night"] else 0}"/>
+  {dots}
+  {mono.path("$", tx + 34, base, size, PINK)}
+  {mono.path(COMMAND, cmd_x, base, size, CREAM)}
+  <g clip-path="url(#term)">{cover}{cursor}</g>
+  </g>
+</svg>
+"""
+
+
 # ほぼらじお公式サイトの画面 --------------------------------------------------------------------
 
 def showcase(theme: str, f: dict[str, Font], m: Motifs) -> str:
@@ -480,7 +538,7 @@ def showcase(theme: str, f: dict[str, Font], m: Motifs) -> str:
   <defs><clipPath id="frame"><rect width="{w}" height="{h}" rx="36"/></clipPath>{sky_def}</defs>
   <g clip-path="url(#frame)">
   {sky_rect}
-  {stars(t, w, 14, 420, 14, 21)}
+  {stars(t, w, 90, 420, 14, 21)}
   {floor}
   {m.put("sparkle", 712, 58, 20, PINK, "tw", -0.6)}{m.put("sparkle2", 690, 88, 12, MOON, "tw", -2)}
   {text}
@@ -544,7 +602,7 @@ def footer(theme: str, f: dict[str, Font], m: Motifs) -> str:
   <radialGradient id="glow"><stop offset="0" stop-color="{t["glow"]}" stop-opacity="{t["glow_op"]}"/><stop offset="1" stop-color="{t["glow"]}" stop-opacity="0"/></radialGradient></defs>
   <g clip-path="url(#frame)">
   {sky_rect}
-  {drifting(top, w, "far")}{stars(t, w, 14, 200, 18, 11)}
+  {drifting(top, w, "far")}{stars(t, w, 14, 172, 18, 11)}
   <ellipse cx="{w / 2}" cy="100" rx="270" ry="130" fill="url(#glow)"/>
   {m.put("clover", 236, 92, 40, SAGE, "bob")}{m.put("moon", 728, 86, 40, MOON, "bob", -3)}
   {m.put("sparkle", 186, 140, 16, PINK, "tw", -1)}{m.put("sparkle2", 782, 142, 16, MOON, "tw", -2.2)}
@@ -681,15 +739,18 @@ def tiles(f: dict[str, Font]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--serif-dir", type=Path, default=Path("C:/Windows/Fonts"))
+    parser.add_argument("--mono-font", type=Path, default=Path("C:/Windows/Fonts/CascadiaMono.ttf"))
     args = parser.parse_args()
     f = {key: Font(FONTS / f"ZenMaruGothic-{name}.ttf") for key, name in (("medium", "Medium"), ("bold", "Bold"), ("black", "Black"))}
     f.update({f"serif_{key}": Font(args.serif_dir / f"NotoSerifCJKjp-{name}.otf")
               for key, name in (("bold", "Bold"), ("semibold", "SemiBold"), ("medium", "Medium"))})
+    f["mono"] = Font(args.mono_font)
     m = Motifs()
     defs = orbit_defs()
     for theme in THEMES:
         write(ASSETS / f"hero-{theme}.svg", hero(theme, f, m, defs))
         write(ASSETS / f"stats-{theme}.svg", stats(theme, f, m))
+        write(ASSETS / f"oss-{theme}.svg", oss(theme, f, m))
         write(ASSETS / f"hoboradio-{theme}.svg", showcase(theme, f, m))
         write(ASSETS / f"footer-{theme}.svg", footer(theme, f, m))
     for key in ("sparkle", "clover", "moon"):

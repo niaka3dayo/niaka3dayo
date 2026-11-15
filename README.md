@@ -48,9 +48,15 @@ TypeScriptを中心に、Webアプリケーションの設計・開発・運用�
 
 ## Open Source
 
-### [agent-skills-vrc-udon](https://github.com/niaka3dayo/agent-skills-vrc-udon)
+<a href="https://github.com/niaka3dayo/agent-skills-vrc-udon">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/oss-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/oss-light.svg">
+    <img src="./assets/oss-light.svg" alt="agent-skills-vrc-udon — AIが書くUdonSharpを、もう少しまともにする。" width="100%">
+  </picture>
+</a>
 
-> **AIが書くUdonSharpを、もう少しまともにする。**
+### [agent-skills-vrc-udon](https://github.com/niaka3dayo/agent-skills-vrc-udon)
 
 普通のC#では通るのに、UdonSharpでは使えない書き方が結構あります。このリポジトリには、その違いをAIエージェントへ教えるルール、実装例、チェック用のフックをまとめています。Claude Code、Codex、Cursorなどで使えるAgent Skillsで、日本語を含む5言語に対応しています。
 
