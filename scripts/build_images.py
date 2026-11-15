@@ -467,6 +467,8 @@ def oss(theme: str, f: dict[str, Font], m: Motifs) -> str:
         "@keyframes blink{50%{opacity:0}}"
         ".type{animation:type 11s infinite}.blink{animation:blink 1.1s step-end infinite}"
         + TWINKLE + SWAY + REDUCED
+        # 止めるだけだと、打ち始め（コマンドが板に隠れた状態）で止まる。動きを外して、全部見えている状態にする
+        + "@media (prefers-reduced-motion:reduce){.type{animation:none!important}}"
     )
     return f"""{svg_open(w, h, "agent-skills-vrc-udon — AIが書くUdonSharpを、もう少しまともにする。", "導入のコマンド npx skills add niaka3dayo/agent-skills-vrc-udon が、ターミナルに打ち込まれていく")}
   <style>{css}</style>
