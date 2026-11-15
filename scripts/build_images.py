@@ -45,10 +45,10 @@ DEEP = "#795d57"  # ロゴの輪郭の濃い茶
 THEMES = {
     "light": dict(sky="#fcf6ef", sky_low="#f9e9e3", ink="#3f2e2a", sub="#795d57", ring="#cfb3aa",
                   cloud="#f6e2de", floor_back="#f4d9d6", floor_front="#fffaf4", glow="#fffdf8", glow_op=0.9,
-                  line="#e6d3cb", shadow=0.07, night=False),
+                  line="#e6d3cb", night=False),
     "dark": dict(sky="#211922", sky_low="#33242f", ink="#fbf3ea", sub="#d9c2b8", ring="#7a5f67",
                  cloud="#2c212b", floor_back="#3b2a35", floor_front="#48343f", glow="#f1d0aa", glow_op=0.16,
-                 line="#57434a", shadow=0, night=True),
+                 line="#57434a", night=True),
 }
 
 # easeInOutSine。行って戻る動きにこの緩急を付けると、円運動を横から見た動き（sin）になる
@@ -395,7 +395,6 @@ def hero(theme: str, f: dict[str, Font], m: Motifs, defs: str) -> str:
   {ring}
   {satellites(m, cx, cy, rx, ry)}
   {orbit(cx, cy, rx, ry, front=False)}
-  <ellipse cx="{cx}" cy="{num(lcy + 941 * ls / 2 - 8)}" rx="150" ry="13" fill="#3f2e2a" fill-opacity="{t["shadow"]}"/>
   <g transform="translate({num(lx)} {num(ly)}) scale({ls:.5f})">{logo_inner("niaka-logo.svg")}</g>
   {orbit(cx, cy, rx, ry, front=True)}
   {floor}
