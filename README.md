@@ -81,7 +81,7 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 - **[あまやどかり](https://vrchat.com/home/launch?worldId=wrld_4a41c522-fc84-4cc0-aee4-ab2fddee73f1)** — 公開 · 雨宿りのためのワールド。公開2日で20,000 visits / 3,300 favorites
 - **[Cyanaria](https://vrchat.com/home/launch?worldId=wrld_12c89f0b-81c4-4d8f-9184-eb07143e961a)** — 公開 · 青い光と水の気配を楽しむワールド
 - **[マヌラボ](https://vrchat.com/home/group/grp_cf22616c-5903-4467-87e9-f1ebd5d592dd)** — イベント用（非公開）· Webから動かせる連動ギミックも担当
-- **灯の館** — 過去に担当したワールド。イベント用（非公開）· イベントの雰囲気に合わせて空間を設計しました。現在は担当していません
+- **灯の館** — 過去に担当した、イベント用の非公開ワールドです。イベントの雰囲気に合わせて空間を設計しました。現在は担当していません。
 
 <img src="./assets/divider-clover.svg" alt="" width="100%">
 
@@ -141,7 +141,7 @@ npx skills add niaka3dayo/agent-skills-vrc-udon
 ほかの人の作品に、動画やコードで関わった仕事です。作品の作者は、それぞれの制作者やチームです。
 
 - **[こもれび With Rinasciita プロモーション動画](https://x.com/Riisya_Sweets/status/2116795253256757515)**（2026.11）— リーシャさんのワールド「初心者案内ワールド こもれび With Rinasciita」の宣伝動画です。構成・撮影・編集を担当し、リーシャさんのXで公開されました。
-- **[HoboRadio / ほぼらじお（ラジオギミック）](https://booth.pm/ja/items/8041466)** — 始終会が開発・運営するVRChat向けラジオギミックです。こちらは開発アドバイザーとして、コードレビューと設計・実装の助言を担当しています。公式頒布ページでは「外部協力・技術サポート」としてクレジットされています。[GitHub](https://github.com/Shijukai/HoboRadio)
+- **[HoboRadio / ほぼらじお（ラジオギミック）](https://booth.pm/ja/items/8041466)** — 始終会が開発・運営するVRChat向けラジオギミックです。開発アドバイザーとして、コードレビューと設計・実装の助言を担当しています。公式頒布ページでは「外部協力・技術サポート」としてクレジットされています。[GitHub](https://github.com/Shijukai/HoboRadio)
 
 *Promotion video production and technical advisory work for other creators' projects.*
 
